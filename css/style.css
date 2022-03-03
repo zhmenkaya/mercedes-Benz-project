@@ -123,12 +123,48 @@ ul{
     font-size: 72px;
     line-height: 120%;
     margin-bottom: 5px;
-    box-shadow: 0px 4px 4px 0px rgba(82, 79, 79, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 
 }
 .header__title-descr {
     font-size: 24px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 55px;
+}
+
+.concept {
+    padding-top: 150px ;
+    margin-bottom: 150px;
+}
+.concept__inner {
+    max-width: 900px;
+    margin-left: auto;
+}
+.concept__title {
+}
+.section__title {
+    font-family: 'Corporate-A-Bold';
+    font-size: 18px;
+    line-height: 120%;
+    color: #F402A2;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+
+}
+.concept__text {
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 25px;
+}
+.concept__img {
+}
+
+
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 300px;
 }
