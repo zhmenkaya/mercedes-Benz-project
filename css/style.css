@@ -160,7 +160,37 @@ ul{
 .concept__img {
 }
 
-
+.premier {
+    margin-bottom: 150px;
+}
+.container {
+}
+.premier__inner {
+    display: flex;
+    gap: 60px;
+}
+.premier__column {
+}
+.section__title {
+}
+.premier__text {
+    margin-bottom: 21px;
+}
+.premier__img {
+    margin-bottom: 20px;
+}
+.premier__btn {
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Corporate-A-Bold';
+    font-size: 18px;
+    line-height: 120%;
+    color:#F402A2;
+    text-align: center;
+    padding: 14px;
+    border: 1px solid #F402A2;
+}
 
 .footer__inner {
     display: flex;
