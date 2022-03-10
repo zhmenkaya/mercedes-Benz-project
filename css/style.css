@@ -29,6 +29,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
+img{
+    max-width: 100%;
+}
 button{
     background-color: transparent;
     border: none;
@@ -62,8 +65,7 @@ ul{
 }
 .logo {
 }
-.logo-img {
-}
+
 .list {
     display: flex;
 }
@@ -282,7 +284,7 @@ ul{
     margin-bottom: 15px;
 }
 .design__interior-img {
-
+    grid-column: 2/-1;
 }
 
 .design-slider {
@@ -340,6 +342,7 @@ ul{
     max-width: 100%;
     display: block;
     object-fit: cover;
+    margin: 0 auto;
 }
 .footer{
     background: #070A1B;
@@ -349,4 +352,113 @@ ul{
     justify-content: space-between;
     align-items:center;
     height: 300px;
+}
+
+@media (max-width: 1366px){
+    .footer__inner{
+        height: 150px;
+    }
+}
+
+@media (max-width: 1020px){
+    .design__interior {
+        display: block;
+    }
+    .design__interior-img {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .design__cell-three,
+    .design__interior-img {
+        max-width: 100%;
+        width: auto;
+    }
+}
+
+@media (max-width: 768px){
+    .header__logo{
+        margin-left: 0;
+    }
+    .logo-img {
+        width: 180px;
+    }
+    .list__item + .list__item{
+        margin-left: 15px;
+    }
+    .list__link {
+        width: 35px;
+        height: 35px;
+    }
+    .title {
+        font-size: 55px;
+    }
+    .header__title-descr {
+        font-size: 18px;
+    }
+    .concept {
+        padding-top: 75px ;
+        margin-bottom: 75px;
+    }
+    .concept__text {
+        font-size: 16px;
+    }
+    .premier,
+    .video {
+        margin-bottom: 75px;
+    }
+    .premier__inner {
+        display: block;
+    }
+    .premier__img {
+        width: 100%;
+    }
+    .design__box{
+        margin: 75px auto;
+        display: block;
+    }
+    .design__box-column {
+        width: 100%;
+    }
+}
+
+@media (max-width: 620px){
+    .footer__inner{
+        flex-wrap: wrap;
+        align-content:center;
+    }
+    .footer .list{
+        width: 100%;
+        /* margin-top: 25px; */
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 520px){
+    .header__top{
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .footer__inner{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .list {
+        justify-content: center;
+        padding-top: 10px;
+        width: 100%;
+    }
+    .title {
+        font-size: 34px;
+    }
+
+}
+
+@media (max-width: 360px){
+    .design-slider__item {
+        margin: 0;
+    }
+    .slick-track{
+        margin-left: 0px;
+    }
 }
